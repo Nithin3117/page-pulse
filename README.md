@@ -117,10 +117,11 @@ The backend returns structured JSON responses, making the application easier to 
 ## Repository
 
 **GitHub Repository:**  
-<Your GitHub Repository Link>
+
 
 **Live Demo:**  
-<Your Render Deployment Link>
+
+https://page-pulse-k8ja.onrender.com/
 
 ---
 
