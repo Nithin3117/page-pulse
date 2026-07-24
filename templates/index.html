@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +7,34 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-
 <body>
-
     <div class="container">
-
         <h1>Page Pulse</h1>
-
         <p class="subtitle">
             Analyze any website and view its SEO & page information.
         </p>
-
         <div class="search-box">
-
             <input
                 type="text"
                 id="urlInput"
                 placeholder="https://example.com">
-
             <button id="analyzeBtn">
                 Analyze
             </button>
-
         </div>
-        
+ 
         <div id="errorBox" class="error-box"></div>
-        
+      
         <div id="loading" class="loading">
             Analyzing website...
         </div>
 
         <div id="result" class="result-card">
-
             <h2>Analysis Report</h2>
-
             <div class="result-row">
                 <span>HTTP Status</span>
                 <span id="status">-</span>
             </div>
-
             <div class="result-row">
                 <span>Response Time</span>
                 <span id="time">-</span>
@@ -87,9 +75,6 @@
             Digital Heroes Training Task
         </a>
     </footer>
-
     <script src="{{ url_for('static', filename='script.js') }}"></script>
-
 </body>
-
 </html>
