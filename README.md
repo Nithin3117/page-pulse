@@ -128,9 +128,8 @@ https://page-pulse-k8ja.onrender.com/
 
 ## Author
 
-**Nithin**  
+**Nithin Bollineni**  
 B.Tech (3rd Year)  
-Aspiring Python Developer
 
 ---
 
